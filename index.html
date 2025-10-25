@@ -2,36 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard - Personal Portfolio</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+<!--
+  - #MAIN
+-->
 
-  <main>
+<main>
 
     <!--
       - #SIDEBAR
@@ -39,115 +39,109 @@
 
     <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+        <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
+            <figure class="avatar-box">
+                <img src="./assets/images/my-avatar.png" alt="Manish Ghoghari" width="80">
+            </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+            <div class="info-content">
+                <h1 class="name" title="Manish Ghoghari">Manish Ghoghari</h1>
 
-          <p class="title">Web developer</p>
+                <p class="title">Game developer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+            <div class="separator"></div>
 
-      </div>
+            <ul class="contacts-list">
 
-      <div class="sidebar-info_more">
+                <li class="contact-item">
 
-        <div class="separator"></div>
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
 
-        <ul class="contacts-list">
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
 
-          <li class="contact-item">
+                        <a href="mailto:manishghoghari0182@gmail.com" class="contact-link">manishghoghari0182@gmail.com</a>
+                    </div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+                </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+                <li class="contact-item">
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
-            </div>
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
 
-          </li>
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                        <a href="tel:+917486875035" class="contact-link">+91 7486875035</a>
+                    </div>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+                <li class="contact-item">
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
 
-          </li>
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
 
-          <li class="contact-item">
+                        <time datetime="2001-02-09">February 09, 2001</time>
+                    </div>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+                </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+                <li class="contact-item">
 
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
 
-          </li>
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
 
-          <li class="contact-item">
+                        <address>Surat, Gujarat, India</address>
+                    </div>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+                </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+            </ul>
 
-              <address>Sacramento, California, USA</address>
-            </div>
+            <div class="separator"></div>
 
-          </li>
+            <ul class="social-list">
 
-        </ul>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/manish-ghoghari-1135b9219/" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
 
-        <div class="separator"></div>
+                <li class="social-item">
+                    <a href="https://github.com/Manish0182" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
 
-        <ul class="social-list">
+            </ul>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
+        </div>
 
     </aside>
 
@@ -161,1040 +155,548 @@
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-
         <!--
-          - service
+          - #NAVBAR
         -->
 
-        <section class="service">
+        <nav class="navbar">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="navbar-list">
 
-          <ul class="service-list">
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
 
-            <li class="service-item">
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
 
             </ul>
 
-          </div>
+        </nav>
 
-          <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
 
-                <h3 class="project-title">Finance</h3>
+        <!--
+          - #ABOUT
+        -->
 
-                <p class="project-category">Web development</p>
+        <article class="about  active" data-page="about">
 
-              </a>
-            </li>
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <section class="about-text">
+                <p>
+                    Passionate Unity Game Developer with hands-on experience in creating engaging and high-performance 2D and 3D games.
+                    Skilled in transforming ideas into interactive, polished gameplay experiences using Unity and C#.
+                    Focused on gameplay mechanics, optimization, and creating immersive user experiences.
+                </p>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <p>
+                    Strong understanding of object-oriented programming, game physics, and cross-platform deployment.
+                    Eager to contribute creativity, technical expertise, and problem-solving skills to bring innovative gaming concepts to life.
+                </p>
+            </section>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
 
-                <h3 class="project-title">Orizon</h3>
+            <!--
+              - service
+            -->
 
-                <p class="project-category">Web development</p>
+            <section class="service">
 
-              </a>
-            </li>
+                <h3 class="h3 service-title">What i'm doing</h3>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+                <ul class="service-list">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <li class="service-item">
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
+                        <div class="service-icon-box">
+                            <img src="./assets/images/icon-app.svg
+                " alt="design icon" width="40">
+                        </div>
 
-                <h3 class="project-title">Fundo</h3>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Game Development</h4>
 
-                <p class="project-category">Web design</p>
+                            <p class="service-item-text">
+                                Professional development of games for iOS and Android.
+                            </p>
+                        </div>
 
-              </a>
-            </li>
+                    </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+                </ul>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+            </section>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+        </article>
 
-                <h3 class="project-title">Brawlhalla</h3>
+        <!-- #RESUME -->
 
-                <p class="project-category">Applications</p>
+        <article class="resume" data-page="resume">
 
-              </a>
-            </li>
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <section class="timeline">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
+                    <h3 class="h3">Education</h3>
                 </div>
 
-              </a>
-            </li>
+                <ol class="timeline-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="timeline-item">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
+                        <h4 class="h4 timeline-item-title">Graduation</h4>
 
-                <div class="blog-content">
+                        <span>2018 — 2022</span>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                        <p class="timeline-text">
+                            Bachelor Of Engineering(B.E.)
+                        </p>
 
-                    <span class="dot"></span>
+                    </li>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                </ol>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+            </section>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
+            <section class="timeline">
 
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Experience</h3>
                 </div>
 
-              </a>
-            </li>
+                <ol class="timeline-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="timeline-item">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
+                        <h4 class="h4 timeline-item-title">Unity Game Development Training</h4>
 
-                <div class="blog-content">
+                        <span>August 2021 — January 2022</span>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                        <p class="timeline-text">
+                            Completed professional training in Unity Engine and Game Development at Devkrushna Infotech Pvt. Ltd.,
+                            where I built several prototype games and strengthened my coding and design skills.
+                        </p>
 
-                    <span class="dot"></span>
+                    </li>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                    <li class="timeline-item">
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                        <h4 class="h4 timeline-item-title">Game Development</h4>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
+                        <span>February 2022 — Present</span>
 
+                        <p class="timeline-text">
+                            Designed, coded, and tested gameplay systems in Unity using C#.
+                            Developed user interfaces and menus using Unity UI Toolkit and Canvas.
+                            Applied object-oriented principles to build scalable, maintainable game systems.
+                            Collaborated on team projects using Git and Unity Collaborate.
+                            Implemented in-game physics, AI behaviors, and animation controllers.
+                            Focused on gameplay feel, responsiveness, and polish to enhance player engagement.
+                            Designed and developed multiple Unity-based projects focusing on gameplay, user experience, and optimization.
+                            Integrated sound, animations, and particle systems to enhance player experience.
+                            Continuously improving skills in Unity tools, shaders, and performance tuning.
+                        </p>
+
+                    </li>
+                    
+                </ol>
+
+            </section>
+
+            <section class="skill">
+                <h3 class="h3">Technical Skills</h3>
+                <ul class="skills-list">
+                    <li>Unity Engine (2D & 3D Game Development)</li>
+                    <li>C# Programming</li>
+                    <li>Game Physics & Collisions</li>
+                    <li>UI/UX Design with Unity Canvas</li>
+                    <li>Animation, Particle Systems & VFX</li>
+                    <li>Lighting, URP/HDRP</li>
+                    <li>Version Control (Git / GitHub)</li>
+                </ul>
+
+                <h3 class="h3">Additional Knowledge</h3>
+                <ul class="skills-list">
+                    <li>Mobile Game Development (Android)</li>
+                    <li>Level Design & Scene Management</li>
+                    <li>Shader Graph / Basic Shader Coding</li>
+                    <li>Multiplayer (Photon, Mirror)</li>
+                </ul>
+
+                <h3 class="h3">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li>Creative Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Quick Learner</li>
+                    <li>Time Management</li>
+                </ul>
+            </section>
+
+
+        </article>
+
+        <!-- #PORTFOLIO -->
+
+        <article class="portfolio" data-page="portfolio">
+
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+
+                <!-- Filter Buttons -->
+                <ul class="filter-list">
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Games</button>
+                    </li>
+                </ul>
+
+                <!-- Dropdown (for mobile) -->
+                <div class="filter-select-box">
+                    <button class="filter-select" data-select>
+                        <div class="select-value" data-selecct-value>Select category</div>
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="select-list">
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+                        <li class="select-item">
+                            <button data-select-item>Games</button>
+                        </li>
+                    </ul>
                 </div>
 
-              </a>
-            </li>
+                <!-- Project List -->
+                <ul class="project-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.ludocash.win" target="_blank" class="project-link">
+                            Ludo Cash - Win Rewards
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.fashion.show.dressup.game" target="_blank" class="project-link">
+                            Fashion Show - Dress Up Games
+                        </a>
+                    </li>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.bowling.strike.game" target="_blank" class="project-link">
+                            Bowling Game - Strike!
+                        </a>
+                    </li>
 
-                <div class="blog-content">
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.fruitscut" target="_blank" class="project-link">
+                            Fruit Cut
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.savethedog.dogrescue" target="_blank" class="project-link">
+                            Save The Dog - Draw To Save
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.mindi.rung.cardgame" target="_blank" class="project-link">
+                            Mindi - Rung, Card Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.gin.rummy.card.game" target="_blank" class="project-link">
+                            Rummy Poker - Card Game
+                        </a>
+                    </li>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.unblock.car.parkingjam.puzzle" target="_blank" class="project-link">
+                            Unblock Car : Parking Jam 3D
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.car.jam.color.match3" target="_blank" class="project-link">
+                            Car Jam - Color Match 3 Games
+                        </a>
+                    </li>
 
-                    <span class="dot"></span>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.hunter.heroes.assassin" target="_blank" class="project-link">
+                            Hunter Heroes - Assassin
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.trafficjam.car.escape" target="_blank" class="project-link">
+                            Traffic Jam - Car Escape
+                        </a>
+                    </li>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.business.board.game" target="_blank" class="project-link">
+                            Board Dice Games - Business
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.darts.club.board.game" target="_blank" class="project-link">
+                            Darts Club - Dart Board Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.pullpin.pinout.puzzle" target="_blank" class="project-link">
+                            Pull Pin Games : Pin Out 3D
+                        </a>
+                    </li>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.wordconnect" target="_blank" class="project-link">
+                            Word Connect - CrossWord
+                        </a>
+                    </li>
 
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.tapaway.puzzle.game" target="_blank" class="project-link">
+                            Tap Away - Puzzle Game
+                        </a>
+                    </li>
 
-                </div>
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.sudoku" target="_blank" class="project-link">
+                            Sudoku - Classic Puzzle Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.cube.tile.match3d.master" target="_blank" class="project-link">
+                            Cube Tile Match 3D Master
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.puzzle.blockpuzzlestarfinder" target="_blank" class="project-link">
+                            Wood Block Puzzle: Star Finder
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.tile.match3d.master" target="_blank" class="project-link">
+                            Triple Tile Match 3D Master
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.watercolorsort.puzzle" target="_blank" class="project-link">
+                            Water Color Sort : Puzzle Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="http://play.google.com/store/apps/details?id=com.tapaway.cube.puzzle.game" target="_blank" class="project-link">
+                            Tap Away - Cube Puzzle Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.tenx.mathgame" target="_blank" class="project-link">
+                            10x - Math Games
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.poder.tileconnectpuzzle" target="_blank" class="project-link">
+                            Tile Connect - Matching Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.skyfallapp.word.search.crossword.puzzle" target="_blank" class="project-link">
+                            Word Search - CrossWord Puzzle
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.kali.word.stacks.game" target="_blank" class="project-link">
+                            Word Stacks : Word Search Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.skyfallapp.mazerun.puzzlegame" target="_blank" class="project-link">
+                            Maze Run - Puzzle Games
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.sky.basket.hoop.stars.battle" target="_blank" class="project-link">
+                            Basket Hoop - Stars Battle
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.skyfall.car.crusher.slide.puzzle" target="_blank" class="project-link">
+                            Car Crusher - Slide Puzzle
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.skyfallapp.word.maker.search.puzzle" target="_blank" class="project-link">
+                            Word Maker: Word Search Puzzle
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.sky.tap.block.away.master" target="_blank" class="project-link">
+                            Tap Block Away - Tap Master
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.skyfall.xmas.jigsawpuzzle" target="_blank" class="project-link">
+                            Christmas Jigsaw - Puzzle Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.sky.guess.emoji.puzzle" target="_blank" class="project-link">
+                            Guess Emoji Puzzle!
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.connect.dots.drawlines" target="_blank" class="project-link">
+                            Connect Dots - Draw Lines
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.truthordare.party.games" target="_blank" class="project-link">
+                            Truth or Dare - Party Game
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.bhrigu.find.difference" target="_blank" class="project-link">
+                            Find Difference : Differences
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.logicworklab.fontstyle.lettering.design.logo.maker" target="_blank" class="project-link">
+                            Font Style - Lettering Design
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="games">
+                        <a href="https://play.google.com/store/apps/details?id=com.logicworklab.circlemaster.perfectcircle" target="_blank" class="project-link">
+                            Perfect CircleMaster Challenge
+                        </a>
+                    </li>
 
-              </a>
-            </li>
+                </ul>
 
-            <li class="blog-post-item">
-              <a href="#">
+            </section>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
+        </article>
 
-                <div class="blog-content">
+        <!--
+          - #CONTACT
+        -->
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+        <article class="contact" data-page="contact">
 
-                    <span class="dot"></span>
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+            <section class="contact-info">
 
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                <p class="contact-text">
+                    I'm always open to collaboration or freelance opportunities in Unity game development.
+                    Feel free to reach out!
+                </p>
 
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                <ul class="contact-list">
 
-                </div>
+                    <li class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <a href="mailto:manishghoghari0182@gmail.com" class="contact-link">manishghoghari@gmail.com</a>
+                    </li>
 
-              </a>
-            </li>
+                    <li class="contact-item">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <a href="https://www.linkedin.com/in/manish-ghoghari-1135b9219/" target="_blank" class="contact-link">LinkedIn</a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="contact-item">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <a href="https://github.com/Manish0182" target="_blank" class="contact-link">GitHub</a>
+                    </li>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
+                </ul>
 
-                <div class="blog-content">
+            </section>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+        </article>
 
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
 
     </div>
 
-  </main>
+</main>
 
 
 
 
 
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
