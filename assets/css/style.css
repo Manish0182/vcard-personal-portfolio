@@ -1915,23 +1915,44 @@ textarea.form-input::-webkit-resizer { display: none; }
         font-weight: bold;
     }
 
+    /* ===== PROJECT LINKS - force identical color on all devices ===== */
 
-    .project-link {
+    /* remove mobile tap highlight */
+    a { -webkit-tap-highlight-color: transparent; }
+
+    /* base link style for project items */
+    .project-link,
+    .project-link:link,
+    .project-link:visited,
+    .project-link:active,
+    .project-link:hover,
+    .project-link:focus {
         display: block;
         padding: 12px 18px;
         background-color: #1e1e1e;
         border-radius: 10px;
-        color: #00ffc6;
+        color: #00ffc6 !important;        /* <-- exact colour from your PC view */
         font-weight: 500;
         text-decoration: none;
         margin-bottom: 12px;
-        transition: background 0.3s, color 0.3s;
+        transition: background 0.25s ease, color 0.25s ease;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
-    .project-link:hover {
-        background-color: #00ffc6;
-        color: #000;
+    /* Hover/Focus state */
+    .project-link:hover,
+    .project-link:focus {
+        background-color: #00ffc6 !important; /* hover flips bg to accent */
+        color: #000000 !important;            /* keep hover text readable */
+        outline: none;
     }
+
+    /* Prevent system/UA stylesheet from colouring visited or active links differently */
+    .project-link:visited { color: #00ffc6 !important; }
+
+    /* If any other selector (author CSS) overrides, keep this last in file so it's final */
+
 
     /* ===== Contact Section Styling ===== */
     .contact h2,
