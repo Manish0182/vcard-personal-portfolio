@@ -112,6 +112,23 @@
 }
 
 
+/* --- Fix for color consistency on mobile --- */
+html, body {
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color-adjust: exact;
+    background-color: var(--smoky-black);
+}
+
+/* Brighten base text colors for mobile readability */
+:root {
+    --white-1: hsl(0, 0%, 100%);
+    --white-2: hsl(0, 0%, 95%);
+    --light-gray: hsl(0, 0%, 88%);
+    --light-gray-70: hsla(0, 0%, 88%, 0.75);
+    --orange-yellow-crayola: hsl(45, 100%, 72%);
+}
 
 
 
